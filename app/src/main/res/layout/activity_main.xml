@@ -18,24 +18,22 @@
 
     <Button
         android:id="@+id/btn_my_biodata"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="My Biodata"
         android:textColor="@color/colorPrimary"
-        android:background="@drawable/bio"
-        android:layout_gravity="right"
+        android:layout_gravity="center"
         android:layout_margin="@dimen/activity_horizontal_margin"
         android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
 
     <Button
         android:id="@+id/btn_my_hobby"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:textColor="@color/colorPrimary"
-        android:background="@drawable/musi"
         android:text="My Hobby"
-        android:layout_gravity="left"
+        android:layout_gravity="center"
         android:layout_margin="@dimen/activity_horizontal_margin"
         android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
@@ -43,24 +41,22 @@
 
     <Button
         android:id="@+id/btn_my_number"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:textColor="@color/colorPrimary"
-        android:background="@drawable/telpon"
         android:text="My Number "
-        android:layout_gravity="right"
+        android:layout_gravity="center"
         android:layout_margin="@dimen/activity_horizontal_margin"
         android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
     <Button
         android:id="@+id/btn_my_email"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:onClick="procces"
         android:textColor="@color/colorPrimary"
-        android:background="@drawable/mail"
         android:text="My Email"
-        android:layout_gravity="left"
+        android:layout_gravity="center"
         android:layout_margin="@dimen/activity_horizontal_margin"
         android:layout_marginBottom="@dimen/activity_vertical_margin"/>
 
